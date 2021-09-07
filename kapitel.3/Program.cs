@@ -6,7 +6,19 @@ namespace kapitel._3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+             Console.WriteLine("How old are you?");
+            int age = int.Parse(Console.ReadLine()); 
+
+            if (age < 50)
+
+            {
+                Console.WriteLine("You are too young to compete");
+            }
+
+            if (age >=50)
+            {
+                Console.WriteLine("You can compete in the golf tournement."); 
+            }
         }
     }
 }
